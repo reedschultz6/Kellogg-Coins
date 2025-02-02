@@ -54,6 +54,6 @@ end
   index = index +1 
 end 
 
-for user, balance in balances
-puts "#{user.capitalize}'s Kellogg Coin balance is #{balance}"
+for user, amount in balances
+puts "#{user.capitalize}'s Kellogg Coin balance is #{amount}"
 end
